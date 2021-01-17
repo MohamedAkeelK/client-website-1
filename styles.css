@@ -39,7 +39,7 @@ body {
   color: white;
   position: sticky;
   top: 0;
-  padding: 0px;
+  padding: 5px;
   transition: ease-in 1s;
 }
 
@@ -48,11 +48,18 @@ body {
   /* text-align: center; */
 }
 
-.logo h1 {
+.logo a {
   margin: 5px;
   padding: 10px;
   color: whitesmoke;
   font-family: cursive;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo a:hover {
+  color: rgba(207, 207, 207, 0.9);
 }
 
 .port a {
@@ -60,6 +67,10 @@ body {
   color: whitesmoke;
   margin-left: 60px;
   font-size: 1.5rem;
+}
+
+.port a:hover {
+  color: rgba(207, 207, 207, 0.9);
 }
 
 .links-container {
@@ -84,8 +95,15 @@ body {
   color: whitesmoke;
 }
 
+.links-container .links li a:hover {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 1.5rem;
+  color: rgba(207, 207, 207, 0.9);
+}
+
 .links-container .links li:last-child a {
-  color: rgb(29, 29, 29);
+  /* color: rgb(29, 29, 29); */
 }
 
 hr {
